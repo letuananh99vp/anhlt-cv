@@ -31,6 +31,24 @@ const projects = [
     role: "Front End Web Developer",
     image: "/images/project-3.jpg",
   },
+  {
+    title: "Accounting System",
+    desc: "The accounting ledger management system is a cross-platform web application developed using ReactJS for the frontend and .NET for the backend. This project aims to assist businesses and organizations in efficiently and conveniently managing financial information.",
+    role: "Front End Web Developer",
+    image: "/images/accounting-system.jpg",
+  },
+  {
+    title: "Smart monitoring",
+    desc: "The smart monitoring application allows users to view live camera feeds and record entry and exit information within the organization. It then compiles and presents the data in detailed, chart based reports. Additionally, the system supports role-based access control, enabling different levels of access depending on user roles",
+    role: "Front End Web Developer",
+    image: "/images/smart-monitor.png",
+  },
+  {
+    title: "HR App",
+    desc: "The HR App project is an internal system developed for employee management within the bank. It includes features such as viewing employee profiles, submitting leave requests, participating in surveys, tracking working hours, and managing family-related information, ...",
+    role: "Mobile Developer",
+    image: "/images/hr-app.jpg",
+  },
 ];
 
 const Portfolio = () => {

@@ -13,57 +13,55 @@ import {
   SiMui,
   SiAdobeillustrator,
   SiAdobephotoshop,
+  SiTailwindcss,
+  SiJira,
 } from "react-icons/si";
 import Card from "./Card";
+import { FaFlutter } from "react-icons/fa6";
 gsap.registerPlugin(ScrollTrigger);
 
 const skills = [
-  { name: "React", icon: <FaReact className="text-sky-400" size={48} /> },
-  { name: "Redux", icon: <SiRedux className="text-purple-500" size={48} /> },
+  { name: "React", icon: <FaReact className="text-sky-400" size={40} /> },
+  { name: "Redux", icon: <SiRedux className="text-purple-500" size={40} /> },
   {
     name: "JavaScript",
     icon: (
-      <SiJavascript
-        className="bg-yellow-300 text-black rounded p-1"
-        size={48}
-      />
+      <SiJavascript className="bg-white text-yellow-300 rounded" size={40} />
     ),
   },
   {
     name: "Typescript",
     icon: (
-      <SiTypescript className="text-blue-600 bg-white rounded p-1" size={48} />
+      <SiTypescript className="text-[#3178c6] bg-white rounded" size={40} />
     ),
   },
-  { name: "HTML5", icon: <SiHtml5 className="text-orange-500" size={48} /> },
-  { name: "CSS3", icon: <SiCss3 className="text-blue-500" size={48} /> },
+  { name: "HTML5", icon: <SiHtml5 className="text-orange-500" size={40} /> },
+  { name: "CSS3", icon: <SiCss3 className="text-blue-500" size={40} /> },
+  {
+    name: "Flutter",
+    icon: <FaFlutter className="text-sky-500" size={40} />,
+  },
   {
     name: "Ant design",
-    icon: <SiAntdesign className="text-sky-500" size={48} />,
+    icon: <SiAntdesign className="text-sky-500" size={40} />,
   },
   {
     name: "Meterial UI",
-    icon: <SiMui className="text-blue-400" size={48} />,
+    icon: <SiMui className="text-blue-400" size={40} />,
   },
-  { name: "Git lab", icon: <FaGitlab className="text-orange-500" size={48} /> },
-  { name: "Jira", icon: <FaJira className="text-blue-400" size={48} /> },
+  {
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss className="text-sky-500" size={40} />,
+  },
+  { name: "Git lab", icon: <FaGitlab className="text-orange-500" size={40} /> },
+  { name: "Jira", icon: <SiJira className="text-blue-400" size={40} /> },
   {
     name: "Photoshop",
-    icon: (
-      <SiAdobephotoshop
-        className="text-blue-900 bg-white rounded p-1"
-        size={48}
-      />
-    ),
+    icon: <SiAdobephotoshop className="text-[#001e36]" size={40} />,
   },
   {
     name: "Illustator",
-    icon: (
-      <SiAdobeillustrator
-        className="text-orange-600 bg-white rounded p-1"
-        size={48}
-      />
-    ),
+    icon: <SiAdobeillustrator className="text-[#330000]" size={40} />,
   },
 ];
 
