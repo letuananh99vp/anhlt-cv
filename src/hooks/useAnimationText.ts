@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
 
 export const useAnimationText = (texts: string[]) => {
@@ -38,6 +39,6 @@ export const useAnimationText = (texts: string[]) => {
     }
     type();
     return () => clearTimeout(timeout);
-  }, [texts]);
+  }, []);
   return { displayText };
 };
