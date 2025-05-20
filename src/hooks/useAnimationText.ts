@@ -38,6 +38,6 @@ export const useAnimationText = (texts: string[]) => {
     }
     type();
     return () => clearTimeout(timeout);
-  }, []);
+  }, [texts]);
   return { displayText };
 };
