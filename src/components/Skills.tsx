@@ -1,23 +1,23 @@
 "use client";
-import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { FaReact, FaGitlab, FaJira } from "react-icons/fa";
+import { useEffect, useRef } from "react";
+import { FaGitlab, FaReact } from "react-icons/fa";
+import { FaFlutter } from "react-icons/fa6";
 import {
-  SiRedux,
-  SiJavascript,
-  SiTypescript,
-  SiHtml5,
-  SiCss3,
-  SiAntdesign,
-  SiMui,
   SiAdobeillustrator,
   SiAdobephotoshop,
-  SiTailwindcss,
+  SiAntdesign,
+  SiCss3,
+  SiHtml5,
+  SiJavascript,
   SiJira,
+  SiMui,
+  SiRedux,
+  SiTailwindcss,
+  SiTypescript,
 } from "react-icons/si";
 import Card from "./Card";
-import { FaFlutter } from "react-icons/fa6";
 gsap.registerPlugin(ScrollTrigger);
 
 const skills = [
